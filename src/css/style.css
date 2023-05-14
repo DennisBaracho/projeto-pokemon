@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-image: url(/src/imagens/modoclaro.png);
+    background-image: url(./src/imagens/modoclaro.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body{
 }
 
 body.modo-escuro{
-    background-image: url(/src/imagens/modoescuro.png);
+    background-image: url("./src/imagens/modoescuro.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ main .listagem-pokemon{
 }
 
 main .carta-pokemon{
-    background-image: url(/src/imagens/dia.jpg);
+    background-image: url("./src/imagens/dia.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ main .carta-pokemon{
 }
 
 .modo-escuro .carta-pokemon{
-    background-image: url(/src/imagens/noite.jpg);
+    background-image: url("./src/imagens/noite.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
